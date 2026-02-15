@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-primary: #f8fafc;
+  --bg-secondary: #f1f5f9;
+  --accent: #0066cc;
+  --accent-secondary: #6d28d9;
+  --text-primary: #1e293b;
+  --text-secondary: #64748b;
+  --border: #cbd5e1;
+}
+
+.dark {
+  --bg-primary: #0a0e27;
+  --bg-secondary: #151b3d;
+  --accent: #00d9ff;
+  --accent-secondary: #7c3aed;
+  --text-primary: #f0f4ff;
+  --text-secondary: #a0aec0;
+  --border: #2d3561;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-brand-bg text-brand-text transition-colors duration-300;
+}
+
+.section-title {
+  @apply text-3xl font-bold tracking-tight md:text-4xl;
+}
+
+.card {
+  @apply rounded-2xl border border-brand-border bg-brand-surface p-6 transition-all duration-300;
+}
+
+.link-underline {
+  @apply relative after:absolute after:-bottom-1 after:left-0 after:h-0.5 after:w-0 after:bg-brand-accent after:transition-all after:duration-300 hover:after:w-full;
+}
+
+input,
+textarea {
+  @apply w-full rounded-lg border border-brand-border bg-transparent px-4 py-3 text-brand-text outline-none transition-colors duration-200;
+}
+
+input:focus,
+textarea:focus {
+  @apply border-brand-accent ring-2;
+  box-shadow: 0 0 0 2px color-mix(in srgb, var(--accent) 30%, transparent);
+}

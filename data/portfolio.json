@@ -1,0 +1,59 @@
+{
+  "personal": {
+    "name": "[YOUR_NAME]",
+    "title": "[YOUR_TITLE]",
+    "bio": "[YOUR_BIO]",
+    "email": "[EMAIL]",
+    "image": "/images/profile.svg"
+  },
+  "skills": [
+    "React",
+    "Design",
+    "Strategy",
+    "Problem Solving",
+    "Communication"
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "title": "[PROJECT_NAME]",
+      "description": "[PROJECT_DESCRIPTION]",
+      "image": "/images/project1.svg",
+      "technologies": [
+        "Tech1",
+        "Tech2"
+      ],
+      "category": "Web",
+      "link": "[PROJECT_URL]"
+    },
+    {
+      "id": 2,
+      "title": "[PROJECT_NAME]",
+      "description": "[PROJECT_DESCRIPTION]",
+      "image": "/images/project2.svg",
+      "technologies": [
+        "Tech1",
+        "Tech2"
+      ],
+      "category": "Design",
+      "link": "[PROJECT_URL]"
+    },
+    {
+      "id": 3,
+      "title": "[PROJECT_NAME]",
+      "description": "[PROJECT_DESCRIPTION]",
+      "image": "/images/project3.svg",
+      "technologies": [
+        "Tech1",
+        "Tech2"
+      ],
+      "category": "Web",
+      "link": "[PROJECT_URL]"
+    }
+  ],
+  "social": {
+    "github": "[GITHUB_URL]",
+    "linkedin": "[LINKEDIN_URL]",
+    "twitter": "[TWITTER_URL]"
+  }
+}

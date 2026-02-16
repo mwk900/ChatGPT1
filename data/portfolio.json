@@ -1,0 +1,81 @@
+{
+  "personal": {
+    "name": "MatiWozniak",
+    "title": "Freelance Website Builder",
+    "bio": "I build fast, conversion-focused websites for local businesses and service companies.",
+    "email": "mwk_ai@tuta.io",
+    "image": "/images/profile.svg",
+    "location": "Nottingham • UK remote • Europe (select projects)"
+  },
+  "skills": [
+    "Conversion-focused layouts",
+    "Responsive development",
+    "Performance optimisation",
+    "Automation workflows",
+    "Client communication"
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "title": "Local Garage Website",
+      "description": "Service business website focused on enquiries and bookings.",
+      "image": "/images/project1.svg",
+      "technologies": [
+        "Next.js",
+        "Tailwind CSS"
+      ],
+      "category": "Business Website",
+      "link": "https://mechanik01.netlify.app/",
+      "isDemo": true,
+      "highlights": [
+        "Mobile-first responsive layout",
+        "Booking/contact form",
+        "Language toggle + dark/light mode"
+      ],
+      "role": "Design & Development"
+    },
+    {
+      "id": 2,
+      "title": "Veterinary Services Website",
+      "description": "Professional services site with consultation scheduling and informational content.",
+      "image": "/images/project2.svg",
+      "technologies": [
+        "Next.js",
+        "Framer Motion"
+      ],
+      "category": "Professional Services",
+      "link": "https://soniagpt.netlify.app/",
+      "isDemo": true,
+      "highlights": [
+        "Sticky navigation with CTA",
+        "Consultation booking flow",
+        "Responsive modern design"
+      ],
+      "role": "UX & Front-end build"
+    },
+    {
+      "id": 3,
+      "title": "Modern Web Design Demo",
+      "description": "Animated website demonstrating branding, layout and interaction design.",
+      "image": "/images/project3.svg",
+      "technologies": [
+        "Tailwind CSS",
+        "Framer Motion"
+      ],
+      "category": "Web Design",
+      "link": "https://mwk001.netlify.app/",
+      "isDemo": true,
+      "highlights": [
+        "Smooth animations",
+        "Theme toggle",
+        "Responsive UX"
+      ],
+      "role": "Visual design prototype"
+    }
+  ],
+  "social": {
+    "github": "",
+    "linkedin": "",
+    "twitter": ""
+  }
+}

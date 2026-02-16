@@ -58,13 +58,8 @@ export default function ContactPage() {
         <p className="mt-2 text-brand-muted">Let&apos;s connect about opportunities, collaborations, or project ideas.</p>
       </header>
 
-      <form name="portfolio-contact" data-netlify="true" netlify-honeypot="bot-field" className="card space-y-4" onSubmit={onSubmit}>
-        <input type="hidden" name="form-name" value="portfolio-contact" />
-        <p className="hidden">
-          <label>
-            Don&apos;t fill this out if you&apos;re human: <input name="bot-field" />
-          </label>
-        </p>
+<form className="card space-y-4" onSubmit={onSubmit} noValidate>
+
 
         <div>
           <label className="mb-1 block text-sm text-brand-muted" htmlFor="name">Name</label>
